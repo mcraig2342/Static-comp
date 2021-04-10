@@ -1,0 +1,121 @@
+*,
+*:after,
+*:before {
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+}
+
+/* Icons */
+.company-logo {
+  height: 3.5vw;
+  width: 15vw;
+}
+
+.shares-img,
+.camera-icon,
+.user-silhouette-circle {
+  height: 1.5vw;
+  width: 1.5vw;
+}
+
+.user-silhouette-circle {
+  padding-top: 10px;
+}
+
+.sandwich-button-img {
+  height: 1vw;
+  width: 1vw;
+}
+
+.arrow-image {
+  height: 3.5vw;
+  width: 3.5vw;
+}
+
+/* Headers */
+
+.admin-username-dropdown {
+  font-weight: normal;
+  font-size: .85vw;
+  color: #3a80bd;
+  display: inline;
+}
+
+.personal-videos-button,
+.playlists-button {
+  font-weight: normal;
+  color: #90989e;
+  font-size: 1vw;
+}
+
+.shares-button {
+  font-weight: normal;
+  font-size: 1vw;
+  color: white;
+}
+
+.shares-header {
+  font-weight: normal;
+  color: #424547;
+}
+
+.views {
+  font-size: .75vw;
+  font-weight: normal;
+  /* color: white; */
+}
+
+.view-number {
+  font-size: 2vw;
+  font-weight: normal;
+  /* color: white; */
+}
+
+.recipients-name {
+  font-size: 1.05vw;
+  font-weight: normal;
+  color: #424547;
+}
+
+.date {
+  font-size: .85vw;
+  font-weight: normal;
+  color: #90989e;
+}
+
+.link {
+  font-size: .8vw;
+  font-weight: normal;
+  color: #424547;
+}
+
+.playlist {
+  font-weight: normal;
+  font-size: .75vw;
+  color: #424547;
+}
+
+.playlist-name {
+  font-size: 1.05vw;
+  font-weight: normal;
+  color: #424547;
+}
+
+.attachments {
+  font-weight: normal;
+  font-size: .7vw;
+  color: #424547;
+}
+
+.attachment-number {
+  font-size: 2vw;
+  font-weight: 200;
+  color: #54adf0;
+}
+
+/* Sections */
+
+
+.nav {
+  background-color: #323436
+}
