@@ -119,3 +119,78 @@
 .nav {
   background-color: #323436
 }
+
+.recipient-section {
+  margin-top: 6vw;
+  width: 97%;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+}
+
+
+/* Recipients */
+
+.recipient {
+  width: 23vw;
+  height: 30vw;
+  border-style: outset;
+  border-color: #ebedf0;
+}
+
+.head1 {
+  height: 10vw;
+  background-image: url('assets/business-man1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head2 {
+  height: 10vw;
+  background-image: url('assets/business-woman1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head3 {
+  height: 10vw;
+  background-image: url('assets/business-man2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head4 {
+  height: 10vw;
+  background-image: url('assets/business-woman2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head5 {
+  height: 10vw;
+  background-image: url('assets/business-woman3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head6 {
+  height: 10vw;
+  background-image: url('assets/business-man3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head7 {
+  height: 10vw;
+  background-image: url('assets/business-woman4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head8 {
+  height: 10vw;
+  background-image: url('assets/business-man4.png');
+  background-position: center;
+  background-size: cover;
+}
