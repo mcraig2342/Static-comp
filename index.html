@@ -1,37 +1,65 @@
 <html>
-
 <head>
   <meta charset='UTF-8'>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Static Comp</title>
 </head>
 <body>
-  <nav>
+  <div class="admin-username-wrapper">
     <img src="./assets/circle-silhouette.png" alt="User Silhouette" class="user-silhouette-circle">
     <h3 class="admin-username-dropdown">Admin Username</h3>
-    <img src="./assets/envelope.png" alt="Shares Image" class="shares-img">
-    <h2 class="shares-button">Shares</h2>
-    <img src="./assets/blue-hamburger.png" alt="Sandwich Button Image" class="sandwich-button-img">
-    <h2 class="playlists-button">Playlists</h2>
-    <img src="./assets/camera.png" alt="Camera icon" class="camera-icon">
-    <h2 class="personal-videos-button">Personal Videos</h2>
+    <img src="./assets/dropdown-arrow.png" alt="dropdown-arrow" class="dropdown-arrow">
+  </div>
+  <nav class="nav">
+    <div class="nav-button-wrapper">
+      <img src="./assets/envelope.png" alt="Shares Image" class="shares-img">
+      <h2 class="shares-button">SHARES</h2>
+      <img src="./assets/blue-hamburger.png" alt="Sandwich Button Image" class="sandwich-button-img">
+      <h2 class="playlists-button">PLAYLISTS</h2>
+      <img src="./assets/camera.png" alt="Camera icon" class="camera-icon">
+      <h2 class="personal-videos-button">PERSONAL VIDEOS</h2>
+    </div>
     <img src="./assets/generic-logo.png" alt="Company Logo" class="company-logo">
   </nav>
   <main>
     <h1 class="shares-header">Shares</h1>
     <section class="recipient-section">
       <article class="recipient">
-        <header>
-          <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+        <header class="head1">
+            <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
+            <div class="view-wrapper">
+              <h3 class="views">VIEWS</h3>
+              <h1 class="view-number">02</h1>
+            </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
+          <h3 class="playlist">PLAYLIST</h3>
+          <h2 class="playlist-name">Name of Playlist</h2>
+          <h3 class="attachments">ATTACHMENTS</h3>
+          <h1 class="attachment-number">04</h1>
+        </aside>
+      </article>
+      <article class="recipient">
+        <header class="head2">
+          <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
+        </header>
+        <aside class="recipient-info">
+          <h3 class="recipients-name">Recipient's Namehere</h3>
+          <p class="date">Monday 01/23/16 10:22am</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -39,15 +67,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head3">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -55,15 +87,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head4">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -71,15 +107,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head5">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -87,15 +127,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head6">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -103,15 +147,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head7">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>
@@ -119,31 +167,19 @@
         </aside>
       </article>
       <article class="recipient">
-        <header>
+        <header class="head8">
           <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
+          <div class="view-wrapper">
+            <h3 class="views">VIEWS</h3>
+            <h1 class="view-number">02</h1>
+          </div>
         </header>
         <aside class="recipient-info">
           <h3 class="recipients-name">Recipient's Namehere</h3>
           <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
-          <h3 class="playlist">PLAYLIST</h3>
-          <h2 class="playlist-name">Name Of Playlist</h2>
-          <h3 class="attachments">ATTACHMENTS</h3>
-          <h1 class="attachment-number">04</h1>
-        </aside>
-      </article>
-      <article class="recipient">
-        <header>
-          <img src="./assets/arrow.png" alt="Arrow Image" class="arrow-image">
-          <h3 class="views">VIEWS</h3>
-          <h1 class="view-number">02</h1>
-        </header>
-        <aside class="recipient-info">
-          <h3 class="recipients-name">Recipient's Namehere</h3>
-          <p class="date">Monday 01/23/16 10:22am</p>
-          <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          <div class="link-wrapper">
+            <p class="link">http://2win.2winstage.com/p/recipi-<br>ents_namehere</p>
+          </div>
           <h3 class="playlist">PLAYLIST</h3>
           <h2 class="playlist-name">Name Of Playlist</h2>
           <h3 class="attachments">ATTACHMENTS</h3>

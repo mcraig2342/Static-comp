@@ -1,0 +1,438 @@
+*,
+*:after,
+*:before {
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+}
+
+/* Icons */
+.company-logo {
+  height: 3.5vw;
+  width: 15vw;
+  margin-top: 3.5vw;
+  margin-left: 23vw;
+  display: inline;
+}
+
+.shares-img,
+.camera-icon {
+  height: 1.5vw;
+  width: 1.5vw;
+  margin-left: 3.2vw;
+  margin-top: .1vw;
+}
+
+.user-silhouette-circle {
+  height: 1.8vw;
+  width: 1.8vw;
+  margin-left: 83vw;
+  margin-top: 1vw;
+}
+
+.sandwich-button-img {
+  height: 1.1vw;
+  width: 1.1vw;
+  margin-left: 3.2vw;
+  margin-top: .3vw;
+}
+
+.arrow-image {
+  height: 5vw;
+  width: 5vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.dropdown-arrow {
+  height: 1.3vw;
+  width: 1.3vw;
+  margin-top: 1.5vw;
+  margin-left: .5vw;
+}
+
+/* Headers */
+
+.admin-username-dropdown {
+  font-weight: 500;
+  font-size: 1.4vw;
+  color: #3a80bd;
+  display: inline-flex;
+  margin-left: .5vw;
+  margin-bottom: .5vw;
+  padding-top: 1.2vw;
+
+}
+
+.playlists-button {
+  font-weight: normal;
+  color: #90989e;
+  font-size: 1.5vw;
+  margin-left: 1.2vw;
+}
+
+.personal-videos-button {
+  font-weight: normal;
+  color: #90989e;
+  font-size: 1.5vw;
+  margin-left: .8vw;
+}
+
+.shares-button {
+  font-weight: normal;
+  margin-left: .7vw;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.shares-header {
+  font-weight: normal;
+  font-size: 3.5vw;
+  margin-top: 3.5vw;
+  margin-left: 1.5vw;
+  color: #424547;
+}
+
+.views {
+  font-size: .75vw;
+  font-weight: normal;
+  /* color: white; */
+}
+
+.view-number {
+  font-size: 2vw;
+  font-weight: normal;
+  /* color: white; */
+}
+
+.recipients-name {
+  font-size: 1.3vw;
+  margin-left: 1.4vw;
+  margin-top: .9vw;
+  font-weight: normal;
+  color: #424547;
+}
+
+.date {
+  font-size: .85vw;
+  font-weight: normal;
+  margin-left: 1.4vw;
+  font-family: sans-serif;
+  font-variant: tabular-nums;
+  color: #90989e;
+}
+
+.link {
+  font-size: 1.05vw;
+  font-weight: normal;
+  color: #90989e;
+}
+
+.playlist {
+  font-weight: normal;
+  font-size: 1vw;
+  margin-left: 1.4vw;
+  margin-top: 1.2vw;
+  color: #424547;
+}
+
+.playlist-name {
+  font-size: 1.3vw;
+  margin-left: 1.4vw;
+  font-weight: normal;
+  color: #424547;
+}
+
+.attachments {
+  font-weight: normal;
+  font-size: 1vw;
+  margin-top: 1.2vw;
+  margin-left: 1.4vw;
+  color: #424547;
+}
+
+.attachment-number {
+  font-size: 2.5vw;
+  margin-left: 1.4vw;
+  font-weight: 200;
+  color: #54adf0;
+}
+
+/* Sections */
+
+
+.nav {
+  background-color: #323436;
+  height: 9vw;
+  display: flex;
+}
+
+.recipient-section {
+  margin-top: 3vw;
+  width: 97%;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+}
+
+.nav-button-wrapper {
+  margin-top: 4vw;
+  width: 60vw;
+  display: flex;
+}
+
+.admin-username-wrapper {
+  background-color: #323436;
+  display: flex;
+}
+
+.link-wrapper {
+  margin-top: 2vw;
+  padding-top: .7vw;
+  padding-left: .5vw;
+  margin-left: 1.5vw;
+  background-color: #f2f3f5;
+  width: 85%;
+  height: 3.7vw;
+}
+
+.view-wrapper {
+  margin-left: 13vw;
+  margin-top: 1vw;
+}
+
+
+
+/* Recipients */
+
+.recipient {
+  width: 23vw;
+  height: 32vw;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.head1 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-man1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head2 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-woman4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head3 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-man2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head4 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-woman2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head5 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-woman3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head6 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-man3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head7 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-woman4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.head8 {
+  height: 12vw;
+  display: flex;
+  background-image: url('assets/business-man4.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.views {
+  color: white;
+  font-size: 1vw;
+}
+
+.view-number {
+  color: white;
+  font-weight: lighter;
+  font-size: 2.7vw;
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .recipient-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .recipient {
+    width: 80vw;
+    height: 95vw;
+    margin-left: 7vw;
+  }
+
+  .head1 {
+    height: 35vw;
+  }
+
+  .head2 {
+    height: 35vw;
+  }
+
+  .head3 {
+    height: 35vw;
+  }
+
+  .head4 {
+    height: 35vw;
+  }
+
+  .head5 {
+    height: 35vw;
+  }
+
+  .head6 {
+    height: 35vw;
+  }
+
+  .head7 {
+    height: 35vw;
+  }
+
+  .head8 {
+    height: 35vw;
+  }
+
+  .admin-username-dropdown {
+    font-size: 2vw;
+  }
+
+  .playlists-button {
+    font-size: 2vw;
+  }
+
+  .personal-videos-button {
+    font-size: 2vw;
+  }
+
+  .shares-button {
+    font-size: 2vw;
+  }
+
+  .shares-header {
+    font-weight: normal;
+    font-size: 4vw;
+    margin-top: 3.5vw;
+    margin-left: 1.5vw;
+    color: #424547;
+  }
+
+  .views {
+    font-size: 4vw;
+  }
+
+  .view-number {
+    font-size: 10vw;
+  }
+
+  .view-wrapper {
+    margin-left: 60vw;
+    margin-top: 1vw;
+  }
+
+  .recipients-name {
+    font-size: 5vw;
+  }
+
+  .date {
+    font-size: 4vw;
+    font-weight: normal;
+    margin-left: 1.4vw;
+    font-family: sans-serif;
+    font-variant: tabular-nums;
+    color: #90989e;
+  }
+
+  .link {
+    font-size: 3.5vw;
+    font-weight: normal;
+    color: #90989e;
+  }
+
+  .link-wrapper {
+    margin-top: 5vw;
+    margin-left: 4vw;
+    height: 10vw;
+  }
+
+  .playlist {
+    font-size: 3.5vw;
+    margin-left: 4vw;
+    margin-top: 6vw;
+  }
+
+  .playlist-name {
+    font-size: 4.5vw;
+    margin-left: 4vw;
+
+  }
+
+  .attachments {
+    font-weight: normal;
+    font-size: 3.5vw;
+    margin-top: 6vw;
+    margin-left: 4vw;
+  }
+
+  .attachment-number {
+    font-size: 7vw;
+    margin-left: 4vw;
+    font-weight: 200;
+    color: #54adf0;
+  }
+
+  .user-silhouette-circle {
+    height: 1.8vw;
+    width: 1.8vw;
+    margin-left: 80vw;
+    margin-top: 1vw;
+  }
+
+  .nav {
+    width: 390px;
+  }
+
+  .admin-username-wrapper {
+    width: 390px;
+  }
+
+
+}
